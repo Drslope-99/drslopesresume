@@ -1,0 +1,124 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-image: radial-gradient(#c7c7c7 25%, #c7c7c7 74%);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 80rem;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.svg__icon {
+  width: 2.2rem;
+  height: 2.2rem;
+  fill: #151b29;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem 2rem;
+  background-color: #151b29;
+}
+
+.header > * {
+  margin-bottom: 1.5rem;
+}
+
+.profile__img {
+  width: 15rem;
+  height: 15rem;
+  border-radius: 50%;
+  border: 0.2rem solid #c7c7c7;
+}
+
+.header__name,
+.header__description {
+  color: #fff;
+}
+
+.header__name {
+  font-size: 3.2rem;
+  font-weight: 300;
+  letter-spacing: 0.2rem;
+}
+
+.header__description {
+  font-size: 1.6rem;
+  word-spacing: 0.3rem;
+  letter-spacing: 0.15rem;
+}
+
+.main > *:not(:last-child) {
+  border-right: 1px solid #ddd;
+}
+
+.content__box {
+  padding: 3rem;
+}
+
+.content__box h3 {
+  text-transform: uppercase;
+  color: #151b29;
+}
+
+.icon__tel {
+  transform: rotateY(180deg);
+}
+
+.contact {
+  padding-block: 2rem;
+}
+
+.contact__list {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  color: #777;
+}
+
+.contact__list > *:first-child {
+  margin-right: 1rem;
+}
+
+.profile__header {
+  padding: 2rem 0 1rem 0;
+}
+
+.profile__description {
+  color: #777;
+}
+
+h3.profile__role {
+  margin-block: 1rem;
+  font-size: 1.4rem;
+  color: #555;
+}
+
+.edu {
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+}
